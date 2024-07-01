@@ -61,5 +61,5 @@ def draw_segmentation_map(img_path, threshold=0.5):
     plt.show()
 
 if __name__ == "__main__":
-    img_path = "kitchen.jpg"  # Change this to the path of your image file
+    img_path = "kitchen.jpg"  
     draw_segmentation_map(img_path, threshold=0.5)
