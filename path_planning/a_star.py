@@ -92,19 +92,3 @@ def astar(maze, start, end):
     # No path found
     return None
 
-# Example usage
-if __name__ == "__main__":
-    # Example maze (0: traversable, 1: obstacle)
-    maze = [
-        [0, 0, 0, 0, 0],
-        [1, 1, 0, 1, 0],
-        [0, 0, 0, 0, 0],
-        [0, 1, 1, 1, 1],
-        [0, 0, 0, 0, 0]
-    ]
-
-    start = (0, 0)  # Start position (row, col)
-    end = (4, 4)    # Goal position (row, col)
-
-    path = astar(maze, start, end)
-    print("Path found:", path)
